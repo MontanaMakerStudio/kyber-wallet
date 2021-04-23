@@ -1,0 +1,40 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+.login {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 360px;
+}
+.login .kyber-logo-medium {
+  height: 303px;
+  object-fit: cover;
+  width: 148px;
+}
+.login .login-btn {
+  height: 68px;
+  margin-left: 6px;
+  margin-top: 68px;
+  width: 68px;
+}
+.login .login-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  padding: 76px 0;
+  width: 360px;
+}
+.login .logo-container {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 329px;
+  min-width: 166px;
+  padding: 0 9px;
+}
+* {
+  box-sizing: border-box;
+}
+:root {
+  --white: rgba(255, 255, 255, 1);
+}

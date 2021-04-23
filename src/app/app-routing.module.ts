@@ -11,6 +11,62 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'account',
+    loadChildren: () => import('./pages/account/account.module').then( m => m.AccountPageModule)
+  },
+  {
+    path: 'account-settings',
+    loadChildren: () => import('./pages/account-settings/account-settings.module').then( m => m.AccountSettingsPageModule)
+  },
+  {
+    path: 'authorize',
+    loadChildren: () => import('./pages/authorize/authorize.module').then( m => m.AuthorizePageModule)
+  },
+  {
+    path: 'init-authorize',
+    loadChildren: () => import('./pages/init-authorize/init-authorize.module').then( m => m.InitAuthorizePageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'on-boarding',
+    loadChildren: () => import('./pages/on-boarding/on-boarding.module').then( m => m.OnBoardingPageModule)
+  },
+  {
+    path: 'splash',
+    loadChildren: () => import('./pages/splash/splash.module').then( m => m.SplashPageModule)
+  },
+  {
+    path: 'passkey',
+    loadChildren: () => import('./pages/passkey/passkey.module').then( m => m.PasskeyPageModule)
+  },
+  {
+    path: 'pay',
+    loadChildren: () => import('./pages/pay/pay.module').then( m => m.PayPageModule)
+  },
+  {
+    path: 'pin',
+    loadChildren: () => import('./pages/pin/pin.module').then( m => m.PinPageModule)
+  },
+  {
+    path: 'privacy',
+    loadChildren: () => import('./pages/privacy/privacy.module').then( m => m.PrivacyPageModule)
+  },
+  {
+    path: 'reset-pass',
+    loadChildren: () => import('./pages/reset-pass/reset-pass.module').then( m => m.ResetPassPageModule)
+  },
+  {
+    path: 'reset-pin',
+    loadChildren: () => import('./pages/reset-pin/reset-pin.module').then( m => m.ResetPinPageModule)
+  },
+  {
+    path: 'wallet',
+    loadChildren: () => import('./pages/wallet/wallet.module').then( m => m.WalletPageModule)
+  },
 ];
 
 @NgModule({

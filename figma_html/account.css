@@ -1,0 +1,300 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+.account {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/606c96bc1a30d7d0a20c78bd/releases/6072564d08400d11b65300f5/img/account@1x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 640px;
+  width: 360px;
+}
+.account .account-card {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 74px;
+  justify-content: flex-end;
+  min-width: 344px;
+  padding: 25px 18px;
+}
+.account .account-card-1 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 74px;
+  margin-top: 9px;
+  min-width: 344px;
+  padding: 25px;
+}
+.account .account-card-label {
+  letter-spacing: 0px;
+  min-height: 23px;
+  min-width: 154px;
+}
+.account .account-card-label-1 {
+  letter-spacing: 0px;
+  min-height: 23px;
+  min-width: 146px;
+}
+.account .account-card-label-2 {
+  letter-spacing: 0px;
+  min-height: 23px;
+  min-width: 86px;
+}
+.account .account-card-label-3 {
+  letter-spacing: 0px;
+  min-height: 23px;
+  min-width: 67px;
+}
+.account .account-card-toggle {
+  letter-spacing: 0px;
+  min-height: 23px;
+  min-width: 119px;
+}
+.account .account-card-toggle-1 {
+  background-color: var(--white);
+  border-radius: 5px;
+  height: 23px;
+  margin-left: 159px;
+  width: 23px;
+}
+.account .account-close-btn-container {
+  align-items: flex-start;
+  align-self: center;
+  cursor: pointer;
+  display: flex;
+  margin-left: 2px;
+  margin-top: 12px;
+  min-width: 126px;
+}
+.account .account-close-btn-te {
+  letter-spacing: 0px;
+  min-height: 19px;
+  width: 60px;
+}
+.account .account-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 640px;
+  width: 360px;
+}
+.account .account-currency-typ {
+  letter-spacing: 0px;
+  min-height: 42px;
+  min-width: 71px;
+}
+.account .account-currency-val {
+  letter-spacing: 0px;
+  margin-left: 17px;
+  min-height: 42px;
+  min-width: 113px;
+}
+.account .account-footer-container {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 124px;
+  padding: 16px 18px;
+  width: 360px;
+}
+.account .account-footer-switch {
+  align-items: flex-start;
+  background-color: var(--granite-gray);
+  border-radius: 5px;
+  display: flex;
+  margin-left: 33px;
+  min-width: 165px;
+}
+.account .account-header-container {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 163px;
+  min-width: 360px;
+  padding: 0 61px;
+}
+.account .account-header-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 119px;
+  width: 237px;
+}
+.account .account-header-label {
+  letter-spacing: 0px;
+  margin-left: 9px;
+  margin-top: 3px;
+  min-height: 30px;
+}
+.account .account-label-container {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 1px;
+  min-width: 130px;
+}
+.account .account-scroll-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 344px;
+  margin-left: -3px;
+  margin-top: 9px;
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 360px;
+}
+.account .account-scroll-container::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+.account .account-text-dark {
+  letter-spacing: 0px;
+  margin-left: 39px;
+  margin-top: 1px;
+  min-height: 21px;
+  min-width: 39px;
+}
+.account .account-text-light {
+  letter-spacing: 0px;
+  margin-top: 1px;
+  min-height: 23px;
+  min-width: 47px;
+}
+.account .flex-row {
+  align-items: center;
+  display: flex;
+  margin-left: 2px;
+  margin-top: 24px;
+  min-width: 239px;
+}
+.account .flex-row-1 {
+  align-items: center;
+  display: flex;
+  min-width: 323px;
+}
+.account .group {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 30px;
+  transform: rotate(-180deg);
+}
+.account .kyber-icon-xsmall {
+  height: 43px;
+  object-fit: cover;
+  width: 26px;
+}
+.account .overlap-group {
+  align-items: center;
+  background-color: var(--picton-blue);
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 52px;
+  justify-content: flex-end;
+  min-width: 109px;
+  padding: 0 17px;
+}
+.account .overlap-group-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  min-width: 78px;
+  padding: 11px 22.7px;
+}
+.account .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 90px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  min-width: 124px;
+  padding: 6px 30px;
+}
+.account .vector {
+  height: 24px;
+  margin-top: -0.14px;
+  transform: rotate(180deg);
+  width: 31px;
+}
+* {
+  box-sizing: border-box;
+}
+.border-1px-granite-gray {
+  border: 1px solid var(--granite-gray);
+}
+.border-1px-mercury {
+  border: 1px solid var(--mercury);
+}
+.border-1px-picton-blue {
+  border: 1px solid var(--picton-blue);
+}
+.border-1px-pink-swan {
+  border: 1px solid var(--pink-swan);
+}
+.roboto-normal-picton-blue-18px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-picton-blue-26px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-pink-swan-18px {
+  color: var(--pink-swan);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-pink-swan-20px {
+  color: var(--pink-swan);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-pink-swan-36px {
+  color: var(--pink-swan);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --font-family-roboto: "Roboto", Helvetica;
+  --font-size-m: 20px;
+  --font-size-s: 18px;
+  --font-size-xxl: 26px;
+  --font-size-xxxxl: 36px;
+  --granite-gray: rgba(103, 101, 101, 1);
+  --mercury: rgba(229, 229, 229, 1);
+  --picton-blue: rgba(62, 174, 255, 1);
+  --pink-swan: rgba(183, 182, 182, 1);
+  --white: rgba(255, 255, 255, 1);
+}
+.align-self-flex-center {
+  align-self: center;
+}

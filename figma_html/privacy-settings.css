@@ -1,0 +1,144 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+.privacysettings {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 360px;
+}
+.privacysettings .close-btn-label {
+  cursor: pointer;
+  letter-spacing: 0px;
+  min-height: 19px;
+  width: 60px;
+}
+.privacysettings .ellipse-10 {
+  height: 25px;
+  left: 18px;
+  position: absolute;
+  top: 0px;
+  width: 25px;
+}
+.privacysettings .kybericon-2 {
+  height: 43px;
+  object-fit: cover;
+  width: 26px;
+}
+.privacysettings .overlap-group {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 90px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  min-width: 124px;
+  padding: 6px 30px;
+}
+.privacysettings .overlap-group-1 {
+  height: 25px;
+  margin-top: -3.5px;
+  position: relative;
+  width: 44px;
+}
+.privacysettings .privacy-data-collect {
+  letter-spacing: 0px;
+  min-height: 23px;
+  min-width: 138px;
+}
+.privacysettings .privacy-data-collection-btn {
+  align-items: center;
+  display: flex;
+  height: 63px;
+  min-width: 360px;
+  padding: 0 15.8px;
+}
+.privacysettings .privacy-data-slider-button {
+  align-items: flex-start;
+  display: flex;
+  height: 18px;
+  margin-left: 150px;
+  min-width: 40px;
+}
+.privacysettings .privacy-footer {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 56px;
+  margin-top: 24px;
+  padding: 11px 118px;
+  width: 360px;
+}
+.privacysettings .privacy-header {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 99px;
+  padding: 0 114px;
+  width: 360px;
+}
+.privacysettings .privacy-settings-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  width: 360px;
+}
+.privacysettings .privacy-text {
+  letter-spacing: 0px;
+  margin-left: 1px;
+  margin-top: 23px;
+  min-height: 372px;
+  width: 309px;
+}
+.privacysettings .rectangle-23 {
+  background-color: var(--pink-swan);
+  border-radius: 90px;
+  height: 13px;
+  left: 0px;
+  position: absolute;
+  top: 6px;
+  width: 35px;
+}
+.privacysettings .title {
+  letter-spacing: 0px;
+  margin-bottom: 2px;
+  margin-left: 8px;
+  min-height: 35px;
+  min-width: 97px;
+}
+* {
+  box-sizing: border-box;
+}
+.border-1px-picton-blue {
+  border: 1px solid var(--picton-blue);
+}
+.roboto-regular-normal-picton-blue-18px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-roboto-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-picton-blue-30px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-roboto-regular);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-pink-swan-20px {
+  color: var(--pink-swan);
+  font-family: var(--font-family-roboto-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --font-family-roboto-regular: "Roboto-Regular", Helvetica;
+  --font-size-m: 20px;
+  --font-size-s: 18px;
+  --font-size-xxxl: 30px;
+  --picton-blue: rgba(62, 174, 255, 1);
+  --pink-swan: rgba(183, 182, 182, 1);
+  --white: rgba(255, 255, 255, 1);
+}

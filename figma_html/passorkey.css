@@ -1,0 +1,74 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+.passorkey {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 368px;
+}
+.passorkey .kyber-logo-large {
+  height: 207px;
+  object-fit: cover;
+  width: 100px;
+}
+.passorkey .mock-keyboard {
+  height: 210px;
+  object-fit: cover;
+  width: 367px;
+}
+.passorkey .overlap-group {
+  height: 646px;
+  position: relative;
+  width: 367px;
+}
+.passorkey .pass-break {
+  height: 8px;
+  margin-left: 1px;
+  margin-top: 20px;
+  width: 51px;
+}
+.passorkey .pass-icon-container {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 233px;
+  min-width: 118px;
+  padding: 0 9px;
+}
+.passorkey .pass-input {
+  align-self: flex-start;
+  cursor: pointer;
+  height: 52px;
+  margin-top: 14px;
+  width: 299px;
+}
+.passorkey .pass-key-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 643px;
+  left: 4px;
+  padding: 17px 30px;
+  position: absolute;
+  top: 3px;
+  width: 360px;
+}
+.passorkey .password-keyboard-container {
+  align-items: flex-end;
+  display: flex;
+  height: 646px;
+  left: 0px;
+  overflow: hidden;
+  padding: 6px 0;
+  position: absolute;
+  top: 0px;
+  width: 367px;
+}
+* {
+  box-sizing: border-box;
+}
+:root {
+  --white: rgba(255, 255, 255, 1);
+}
+.align-self-flex-start {
+  align-self: flex-start;
+}

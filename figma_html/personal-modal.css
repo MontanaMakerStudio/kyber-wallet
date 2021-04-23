@@ -1,0 +1,162 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+.personal-modal {
+  align-items: flex-start;
+  display: flex;
+  width: 360px;
+}
+.personal-modal .country-code {
+  align-items: flex-start;
+  border-radius: 5px;
+  display: flex;
+  height: 23px;
+  justify-content: flex-end;
+  margin-left: 9px;
+  margin-top: 30px;
+  min-width: 49px;
+  padding: 0 7px;
+}
+.personal-modal .country-code-pulldow {
+  letter-spacing: 0px;
+  min-height: 23px;
+  width: 32px;
+}
+.personal-modal .flex-row {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-right: 11px;
+  margin-top: 20px;
+  min-width: 278px;
+}
+.personal-modal .personal-address-lab {
+  letter-spacing: 0px;
+  margin-left: 9px;
+  margin-top: 31px;
+  min-height: 23px;
+}
+.personal-modal .personal-address-lab-1 {
+  letter-spacing: 0px;
+  margin-left: 9px;
+  margin-top: 32px;
+  min-height: 23px;
+}
+.personal-modal .personal-city-label {
+  letter-spacing: 0px;
+  min-height: 23px;
+  min-width: 36px;
+}
+.personal-modal .personal-modal-container {
+  align-items: flex-start;
+  background-color: var(--prussian-blue);
+  display: flex;
+  height: 640px;
+  padding: 98px 17px;
+  width: 360px;
+}
+.personal-modal .personal-modal-content {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  overflow: hidden;
+  padding: 22px 14px;
+  width: 326px;
+}
+.personal-modal .personal-name-label {
+  letter-spacing: 0px;
+  margin-left: 9px;
+  min-height: 23px;
+}
+.personal-modal .personal-state-input {
+  align-items: flex-start;
+  border-radius: 5px;
+  display: flex;
+  height: 23px;
+  justify-content: flex-end;
+  margin-left: 188px;
+  min-width: 54px;
+}
+.personal-modal .personal-state-pulld {
+  letter-spacing: 0px;
+  min-height: 23px;
+  width: 53px;
+}
+.personal-modal .personal-verify-btn-container {
+  align-items: flex-start;
+  align-self: center;
+  background-color: var(--picton-blue);
+  border-radius: 90px;
+  display: flex;
+  height: 33px;
+  margin-top: 40px;
+  min-width: 124px;
+  padding: 6px 31px;
+}
+.personal-modal .personal-verify-labe {
+  cursor: pointer;
+  letter-spacing: 0px;
+  min-height: 19px;
+  width: 62px;
+}
+.personal-modal .vector-10 {
+  height: 2px;
+  margin-top: 11px;
+  width: 297px;
+}
+.personal-modal .vector-11 {
+  height: 2px;
+  margin-top: 9px;
+  width: 297px;
+}
+.personal-modal .vector-12 {
+  height: 2px;
+  margin-top: 8px;
+  width: 297px;
+}
+.personal-modal .vector-8 {
+  height: 2px;
+  margin-top: 7px;
+  width: 297px;
+}
+.personal-modal .vector-9 {
+  height: 2px;
+  margin-top: 12px;
+  width: 297px;
+}
+* {
+  box-sizing: border-box;
+}
+.border-1px-mercury {
+  border: 1px solid var(--mercury);
+}
+.border-1px-picton-blue {
+  border: 1px solid var(--picton-blue);
+}
+.roboto-normal-pink-swan-20px {
+  color: var(--pink-swan);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --font-family-roboto: "Roboto", Helvetica;
+  --font-size-m: 20px;
+  --font-size-s: 18px;
+  --mercury: rgba(229, 229, 229, 1);
+  --picton-blue: rgba(62, 174, 255, 1);
+  --pink-swan: rgba(183, 182, 182, 1);
+  --prussian-blue: rgba(6, 52, 89, 0.8);
+  --white: rgba(255, 255, 255, 1);
+}

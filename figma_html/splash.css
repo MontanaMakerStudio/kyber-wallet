@@ -1,0 +1,34 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+.splash {
+  align-items: flex-start;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  width: 360px;
+}
+.splash .kyber-logo-large {
+  height: 391px;
+  object-fit: cover;
+  width: 193px;
+}
+.splash .logo-container {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 417px;
+  min-width: 211px;
+  padding: 0 9px;
+}
+.splash .splash-container {
+  align-items: flex-start;
+  display: flex;
+  height: 640px;
+  padding: 87px 74px;
+  width: 360px;
+}
+* {
+  box-sizing: border-box;
+}
+:root {
+  --white: rgba(255, 255, 255, 1);
+}

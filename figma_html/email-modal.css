@@ -1,0 +1,89 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+.email-modal {
+  align-items: flex-start;
+  display: flex;
+  width: 360px;
+}
+.email-modal .email-modal-container {
+  align-items: flex-start;
+  background-color: var(--prussian-blue);
+  display: flex;
+  height: 640px;
+  padding: 187px 17px;
+  width: 360px;
+}
+.email-modal .text-1 {
+  letter-spacing: 0px;
+  margin-left: 23px;
+  min-height: 23px;
+}
+.email-modal .vector-8 {
+  height: 2px;
+  margin-top: 7px;
+  width: 339px;
+}
+.email-modal .verify-email-btn-container {
+  align-items: flex-start;
+  align-self: center;
+  background-color: var(--picton-blue);
+  border-radius: 90px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  margin-top: 28px;
+  min-width: 124px;
+  padding: 6px 32px;
+}
+.email-modal .verify-email-btn-lab {
+  cursor: pointer;
+  letter-spacing: 0px;
+  min-height: 19px;
+  width: 54px;
+}
+.email-modal .verify-email-content {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  overflow: hidden;
+  padding: 35px 0;
+  width: 326px;
+}
+.email-modal .verify-email-label-2 {
+  letter-spacing: 0px;
+  margin-left: 23px;
+  margin-top: 33px;
+  min-height: 23px;
+}
+* {
+  box-sizing: border-box;
+}
+.border-1px-picton-blue {
+  border: 1px solid var(--picton-blue);
+}
+.roboto-regular-normal-pink-swan-20px {
+  color: var(--pink-swan);
+  font-family: var(--font-family-roboto-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-roboto-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --font-family-roboto-regular: "Roboto-Regular", Helvetica;
+  --font-size-m: 20px;
+  --font-size-s: 18px;
+  --picton-blue: rgba(62, 174, 255, 1);
+  --pink-swan: rgba(183, 182, 182, 1);
+  --prussian-blue: rgba(6, 52, 89, 0.8);
+  --white: rgba(255, 255, 255, 1);
+}
