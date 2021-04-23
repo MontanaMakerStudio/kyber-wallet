@@ -1,0 +1,7 @@
+{
+  "name": "kyber",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
