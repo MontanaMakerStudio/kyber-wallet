@@ -67,6 +67,30 @@ const routes: Routes = [
     path: 'wallet',
     loadChildren: () => import('./pages/wallet/wallet.module').then( m => m.WalletPageModule)
   },
+  {
+    path: 'init-landing',
+    loadChildren: () => import('./pages/init-landing/init-landing.module').then( m => m.InitLandingPageModule)
+  },
+  {
+    path: 'init-landing-phone',
+    loadChildren: () => import('./pages/init-landing-phone/init-landing-phone.module').then( m => m.InitLandingPhonePageModule)
+  },
+  {
+    path: 'init-landing-auth',
+    loadChildren: () => import('./pages/init-landing-auth/init-landing-auth.module').then( m => m.InitLandingAuthPageModule)
+  },
+  {
+    path: 'init-auth-code',
+    loadChildren: () => import('./pages/init-auth-code/init-auth-code.module').then( m => m.InitAuthCodePageModule)
+  },
+  {
+    path: 'init-auth-user-pass',
+    loadChildren: () => import('./pages/init-auth-user-pass/init-auth-user-pass.module').then( m => m.InitAuthUserPassPageModule)
+  },
+  {
+    path: 'terms',
+    loadChildren: () => import('./pages/terms/terms.module').then( m => m.TermsPageModule)
+  },
 ];
 
 @NgModule({
