@@ -467,10 +467,6 @@ const routes = [
         loadChildren: () => __webpack_require__.e(/*! import() | pages-on-boarding-on-boarding-module */ "pages-on-boarding-on-boarding-module").then(__webpack_require__.bind(null, /*! ./pages/on-boarding/on-boarding.module */ "Ihqs")).then(m => m.OnBoardingPageModule)
     },
     {
-        path: 'splash',
-        loadChildren: () => __webpack_require__.e(/*! import() | pages-splash-splash-module */ "pages-splash-splash-module").then(__webpack_require__.bind(null, /*! ./pages/splash/splash.module */ "7JAH")).then(m => m.SplashPageModule)
-    },
-    {
         path: 'passkey',
         loadChildren: () => __webpack_require__.e(/*! import() | pages-passkey-passkey-module */ "pages-passkey-passkey-module").then(__webpack_require__.bind(null, /*! ./pages/passkey/passkey.module */ "P4L1")).then(m => m.PasskeyPageModule)
     },
