@@ -36,10 +36,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/on-boarding/on-boarding.module').then( m => m.OnBoardingPageModule)
   },
   {
-    path: 'splash',
-    loadChildren: () => import('./pages/splash/splash.module').then( m => m.SplashPageModule)
-  },
-  {
     path: 'passkey',
     loadChildren: () => import('./pages/passkey/passkey.module').then( m => m.PasskeyPageModule)
   },
