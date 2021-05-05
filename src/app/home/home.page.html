@@ -1,7 +1,16 @@
 <ion-content [fullscreen]="true">
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <img
+      id="kyber-logo"
+      src="assets/drawable-mdpi-typography.png"
+
+      alt="KyberLogo"
+      width="320"
+      height="480"
+    />
+    <div *ngIf="firstTime">Welcome Padawan!</div>
+    <img src="assets/main-button.png" alt="main-button" id="main-btn">
   </div>
+
 </ion-content>

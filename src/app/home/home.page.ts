@@ -9,3 +9,6 @@ export class HomePage {
 
   constructor() {}
 }
+
+// create a class? or Const... for first time play walk through
+// let firstTime = null;
