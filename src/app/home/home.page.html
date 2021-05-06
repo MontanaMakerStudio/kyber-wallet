@@ -1,16 +1,24 @@
 <ion-content [fullscreen]="true">
 
   <div id="container">
+    <!-- resolve this image sizing with srcset & breakpoints -->
     <img
       id="kyber-logo"
-      src="assets/drawable-mdpi-typography.png"
+      src="assets/drawable-hdpi-typography.png"
 
       alt="KyberLogo"
-      width="320"
-      height="480"
+      width="300"
+      height="auto"
     />
+    <br>
+    <br> <!-- this "<br>" can be resolved with padding -->
+
     <div *ngIf="firstTime">Welcome Padawan!</div>
-    <img src="assets/main-button.png" alt="main-button" id="main-btn">
+
+    <img src="assets/main-button.png" alt="main-button" width="100" height="auto" id="main-btn">
+    <!-- NAV -> This button is a slider controller left/right-->
+    <!-- right goes to password/key_phrase login-->
+    <!-- left goes to pin login -->
   </div>
 
 </ion-content>
