@@ -1,24 +1,41 @@
+<!-- The Home Page is the first stop for the user on each init
+    Here we will query media and set global parameters for images based on screen size
+    and resolution.
+
+    Before arriving here, the user settings and any api references will be initiated.
+    Settings will be directed at the theme.
+
+    onOpen() from unfocused, the user will be brought
+    again to HomePage(), the user can set a timeout(1-5 mins) when the app is out of focus.
+    ngIf="session-token-valid" "main-btn" navigates to wallet page onAny.gesture(). -->
+
 <ion-content [fullscreen]="true">
 
-  <div id="container">
-    <!-- resolve this image sizing with srcset & breakpoints -->
-    <img
-      id="kyber-logo"
-      src="assets/drawable-hdpi-typography.png"
+  <!-- TODO DEVICE -> @media query screen/window size and device resolution -->
+  <!-- TODO DEVICE -> lock orientation -->
 
+  <div id="container">
+    <!-- TODO LAYOUT -> resolve this image sizing with css & breakpoints -->
+    <img id="kyber-logo"
+      src="assets/drawable-ldpi-typography.png"
       alt="KyberLogo"
-      width="300"
+      width="200w"
       height="auto"
     />
+
     <br>
-    <br> <!-- this "<br>" can be resolved with padding -->
+    <br> <!-- TODO LAYOUT -> this "<br>" can be resolved with padding -->
 
     <div *ngIf="firstTime">Welcome Padawan!</div>
 
-    <img src="assets/main-button.png" alt="main-button" width="100" height="auto" id="main-btn">
-    <!-- NAV -> This button is a slider controller left/right-->
+    <img id="main-btn" src="assets/main-button.png" alt="main-button" width="80w" height="auto" >
+    <!-- TODO NAV -> This button is a slider controller left/right-->
     <!-- right goes to password/key_phrase login-->
     <!-- left goes to pin login -->
+
+    <!-- TODO IMAGES -> resize main-btn -->
   </div>
 
 </ion-content>
+
+<!-- TODO HTML META/HEAD -->
